@@ -4,18 +4,29 @@
         <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Recipes</title>
+        <title>Odin Recipes</title>
     </head>
     
     <body>
-        <div>
-            <a href="index.html"></a><img id="logo" class="center" src="/recipes-image/odin-logo.png">
+        <div id="logo-container">
+            <img id="logo" src="/recipes-image/odin-logo.png" alt="Odin logotype">
         </div>
         <h1 class="heading">Odin Recipes</h1>
-        <ul>
-            <li><a href="./recipes/spaghetti.html" target="_blank" rel="noopener noreferrer">Spaghetti recipe</a></li>
-            <li><a href="./recipes/cookie.html" target="_blank" rel="noopener noreferrer">Chocolate cookie recipe</a></li>
-            <li><a href="./recipes/soup.html" target="_blank" rel="noopener noreferrer">Soup recipe</a></li>
-        </ul>    
+        <div class="container">
+            <div class="container-item">
+                <img src="./recipes-image/spaghetti.jpg" alt="One-Pot Spaghetti with Meat Sauce">
+                <a href="./recipes/spaghetti.html" target="_blank" rel="noopener noreferrer">Spaghetti recipe</a>
+            </div>
+
+            <div class="container-item">
+                <img src="./recipes-image/cookie.jpg" alt="Chocolate Chip Cookies">
+                <a href="./recipes/cookie.html" target="_blank" rel="noopener noreferrer">Chocolate cookie recipe</a>
+            </div>
+
+            <div class="container-item">
+                <img src="./recipes-image/soup.jpg" alt="Slow Cooker Chicken Tortilla Soup">
+                <a href="./recipes/soup.html" target="_blank" rel="noopener noreferrer">Soup recipe</a>
+            </div>
+        </div> 
     </body>
 </html>

@@ -1,9 +1,12 @@
+#logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #logo {
     width: 100px;
     height: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
 }
 
 .heading {
@@ -14,4 +17,32 @@
 .heading,
 .recipe-title{
     text-align: center;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-item img {
+    width: 300;
+    height: 300px;
+    border-radius: 8px;
+    border: solid 4px rgb(226, 178, 96);
+
+}
+
+.container-item a {
+    margin-top: 10px;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
 }
