@@ -1,3 +1,7 @@
+/* body style */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 /* style for main-page*/
 #logo-container {
   display: flex;
@@ -12,10 +16,6 @@
 
 .heading {
     font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.heading {
     text-align: center;
 }
 
@@ -43,22 +43,19 @@
 .container-item a {
     margin-top: 10px;
     text-decoration: none;
-    color: blue;
+    color: black;    
     font-weight: bold;
 }
 /* style for recipe-pages */
-.recipe-page-header {
+.recipe-title-image,
+.recipe-description,
+.recipe-ingredients,
+.recipe-steps,
+.footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
-}
-
-.recipe-description {
-    display: flex;
-    flex-direction: column;
-    flex: 1 auto;
-    justify-content: center;
+    align-items: center;
 }
 
 .description-text {
@@ -67,40 +64,24 @@
     text-align: left;
 }
 
-.recipe-ingredients {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.ingredients-list {
+.ingredients-list,
+.recipe-steps-list {
     font-weight: 100;
-    width: 500px;
+    width: 650px;
     list-style-position: inside;
     text-align: left;
 }
 
 .recipe-steps {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 5px;
-    margin: 60px;
-}
-
-.recipe-steps-list {
-    list-style-position: inside;
-    width: 600px;
-    text-align: left;   
+    padding-bottom: 50px;
+    margin: 30px;
 }
 
 .footer {
-    text-align: center;
     background-color: rgb(226, 178, 96);
     padding: 30px;
-    margin: 0;
 }
 
-.recipe-title {
-    text-align: center;
+li {
+    line-height: 25px;
 }
