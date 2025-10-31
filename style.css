@@ -1,6 +1,8 @@
 /* body style */
 body {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
 }
 /* style for main-page*/
 #logo-container {
@@ -15,7 +17,7 @@ body {
 }
 
 .heading {
-    font-size: 50px;
+    font-size: 3rem;
     text-align: center;
 }
 
@@ -33,7 +35,7 @@ body {
 }
 
 .container-item img {
-    width: 300;
+    width: 300px;
     height: 300px;
     border-radius: 8px;
     border: solid 4px rgb(226, 178, 96);
@@ -58,30 +60,20 @@ body {
     align-items: center;
 }
 
-.description-text {
-    width: 600px;
-    align-self: center;
-    text-align: left;
-}
-
+.description-text,
 .ingredients-list,
 .recipe-steps-list {
     font-weight: 100;
-    width: 650px;
+    max-inline-size: 70ch;
     list-style-position: inside;
     text-align: left;
 }
 
 .recipe-steps {
-    padding-bottom: 50px;
-    margin: 30px;
+    margin-bottom: 30px;
 }
 
 .footer {
     background-color: rgb(226, 178, 96);
     padding: 30px;
-}
-
-li {
-    line-height: 25px;
 }
